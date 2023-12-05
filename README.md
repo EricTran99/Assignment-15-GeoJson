@@ -16,9 +16,9 @@ From there, the index html can be used to open the website to display the map. <
 
 
 <h3>Whats in the js code? </h3>
-In the js, it is broken into three sections.
-1. the first is creating the base map of the world and creating the link from the earthquake and have it set as a string.
-2. the second is taking the coordinate from the geojson and creating the circle based on the location through coordinates;
+In the js, it is broken into three sections. <br/>
+1. the first is creating the base map of the world and creating the link from the earthquake and have it set as a string. <br/>
+2. the second is taking the coordinate from the geojson and creating the circle based on the location through coordinates 
 size of the cirlce through the magnitude and the color of the circle (which the 3rd coordinate is used to determine the color).
-In addition, each of the circle have a bindPopup which displays additional info back the selected earthquake.
-3. the third is creating the legend that display what each of the color represent
+In addition, each of the circle have a bindPopup which displays additional info back the selected earthquake. <br/>
+3. the third is creating the legend that display what each of the color represent. <br/>
