@@ -15,18 +15,7 @@ To ensure that this index.html works, make sure that a folder 'static' contains 
 In the js, it is broken into three sections. <br/>
 1. In the JavaScript, the code contains a section that displays the default image of the map, along with the variable ‘link’ refering to a website that contains the json details of recorded earthquakes.<br/>
 
-let myMap = L.map("map", {
-  center: [-4.768047,128.568276],
-  zoom: 4
-});
-
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(myMap);
-
-// All earthquake in the last 7 days
-let link = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
- 
+![image](https://github.com/EricTran99/Earthquake_Visualisation/assets/134130254/2f731cf4-1177-4f4b-b0ba-c7bc532c7163)
  <br/>
 
 2. The next bit categorise the earthquake information as it runs through a loop which groups the earthquake and each group are associated with a colour. Afterwards, the code creates circle based on the earthquake’s magnitude and bind onto the map.<br/>
