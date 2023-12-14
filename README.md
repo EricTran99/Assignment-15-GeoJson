@@ -132,6 +132,6 @@ function createLegendControl() {
 
 ```
 
-With all of the combined coding scripts, the result is a website shows a world map that contains circle Popup, each representing a recorded earthquake with information about the earthquake with Popup description. As well as a legend to help guide the viewers on what each colours represent <br/>
+With all of the combined coding scripts, the result is a website shows a world map that contains circle Popup, each representing a recorded earthquake with information about the earthquake with Popup description. As well as a legend to help guide the viewers on what each colours represent. <br/>
  <br/>
 ![image](https://github.com/Nisloen/Assignment-15-GeoJson/assets/134130254/990a1063-d4a0-47c6-aafc-293e79e12b90)
