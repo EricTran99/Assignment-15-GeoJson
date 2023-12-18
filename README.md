@@ -12,6 +12,9 @@ To ensure that this index.html works, make sure that a folder 'static' contains 
 - js - which holds the main javascript file <br/>
 - html - where the website coding is made and elements are structured <br/>
 
+## Resource
+[https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson)
+
 <h3>Development process</h3>
 In the js, it is broken into three sections. <br/>
 The first section contains the connection link to the json datasource that contains all recorded earthquake and details, as well as the canvas display of the world map onto the html website.
