@@ -134,6 +134,7 @@ function createLegendControl() {
 }
 
 ```
+# Results
 
 With all of the combined coding scripts, the result is a website shows a world map that contains circle Popup, each representing a recorded earthquake with information about the earthquake with Popup description. As well as a legend to help guide the viewers on what each colours represent. <br/>
  <br/>
